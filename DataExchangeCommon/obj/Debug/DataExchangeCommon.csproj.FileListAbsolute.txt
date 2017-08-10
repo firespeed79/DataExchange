@@ -1,0 +1,11 @@
+F:\2017\DataExchangeService\DataExchangeCommon\bin\Debug\DataExchangeCommon.dll
+F:\2017\DataExchangeService\DataExchangeCommon\bin\Debug\DataExchangeCommon.pdb
+F:\2017\DataExchangeService\DataExchangeCommon\bin\Debug\protobuf-net.dll
+F:\2017\DataExchangeService\DataExchangeCommon\obj\Debug\DataExchangeCommon.dll
+F:\2017\DataExchangeService\DataExchangeCommon\obj\Debug\DataExchangeCommon.pdb
+E:\DataExchangeService\DataExchangeCommon\bin\Debug\DataExchangeCommon.dll
+E:\DataExchangeService\DataExchangeCommon\bin\Debug\DataExchangeCommon.pdb
+E:\DataExchangeService\DataExchangeCommon\bin\Debug\protobuf-net.dll
+E:\DataExchangeService\DataExchangeCommon\obj\Debug\DataExchangeCommon.csprojResolveAssemblyReference.cache
+E:\DataExchangeService\DataExchangeCommon\obj\Debug\DataExchangeCommon.dll
+E:\DataExchangeService\DataExchangeCommon\obj\Debug\DataExchangeCommon.pdb

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataExchangeService", "DataExchangeService\DataExchangeService.csproj", "{916A42C5-4227-4A62-934D-99A7B7813B5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataExchangeCommon", "DataExchangeCommon\DataExchangeCommon.csproj", "{C7444F27-050F-486D-82A5-E5FCFBF11140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientTest", "ClientTest\ClientTest.csproj", "{562300D6-D951-4230-9989-38C2ECC73B58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapSetting", "MapSetting\MapSetting.csproj", "{CAD70DBD-D596-4DB7-8EB2-E93FEBCA1755}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{916A42C5-4227-4A62-934D-99A7B7813B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916A42C5-4227-4A62-934D-99A7B7813B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916A42C5-4227-4A62-934D-99A7B7813B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916A42C5-4227-4A62-934D-99A7B7813B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7444F27-050F-486D-82A5-E5FCFBF11140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7444F27-050F-486D-82A5-E5FCFBF11140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7444F27-050F-486D-82A5-E5FCFBF11140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7444F27-050F-486D-82A5-E5FCFBF11140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562300D6-D951-4230-9989-38C2ECC73B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562300D6-D951-4230-9989-38C2ECC73B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562300D6-D951-4230-9989-38C2ECC73B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562300D6-D951-4230-9989-38C2ECC73B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD70DBD-D596-4DB7-8EB2-E93FEBCA1755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD70DBD-D596-4DB7-8EB2-E93FEBCA1755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD70DBD-D596-4DB7-8EB2-E93FEBCA1755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD70DBD-D596-4DB7-8EB2-E93FEBCA1755}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
