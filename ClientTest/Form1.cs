@@ -343,7 +343,15 @@ namespace ClientTest
             List<RawData> record = DataManager.GetData();
             foreach (RawData data in record)
             {
-                listBox1.Items.Add("[" + data.Time + "]{" + data.ID + "}" + Encoding.UTF8.GetString(data.Data));
+                listBox1.Items.Add("[" + data.Time.ToString("yy-MM-dd HH:mm:ss") + "]{ID:" + data.ID + ",From:" + data.Source + "}" + Encoding.UTF8.GetString(data.Data));
+            }
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedIndex > -1)
+            {
+                toolTip1.SetToolTip(listBox1, listBox1.SelectedItem.ToString());
             }
         }
     }

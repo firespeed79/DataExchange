@@ -51,6 +51,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label6 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -238,11 +239,13 @@
             // 
             this.listBox1.ForeColor = System.Drawing.Color.Blue;
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.HorizontalScrollbar = true;
             this.listBox1.ItemHeight = 18;
             this.listBox1.Location = new System.Drawing.Point(603, 49);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(336, 328);
             this.listBox1.TabIndex = 10;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // label6
             // 
@@ -323,6 +326,7 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 
